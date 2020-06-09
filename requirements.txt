@@ -1,0 +1,7 @@
+tensorflow==2.0.0
+numpy 
+scipy
+scikit-learn
+pillow
+h5py
+keras
