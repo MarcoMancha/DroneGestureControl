@@ -1,11 +1,7 @@
 # DroneGestureControl
 Controling a Tello Drone using a Hand Gesture Detector using a preprocessed model using OpenCV and VGG.
 
-## Demo 
-
-
-
-## Gesture List
+## Gestures
 ![gestures](https://miro.medium.com/max/1400/0*az-wcj3bJfqr50l6.jpg)
 
 Gesture | Drone Function
@@ -15,6 +11,9 @@ Palm | Move down 50cm
 Okay | Rotate 90° to the right
 L | Move up 50cm
 Fist | Move forward 50cm
+
+## Demo 
+[![demo](https://img.youtube.com/vi/-GkevpPNNDg/0.jpg)](https://www.youtube.com/watch?v=-GkevpPNNDg)
 
 ## Instructions
 
