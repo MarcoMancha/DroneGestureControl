@@ -1,5 +1,6 @@
 """
-    Author: Marco Antonio Mancha Alfaro
+    Author: 
+        Marco Antonio Mancha Alfaro
     
     Gesture hand detection to control a Tello Drone
     
@@ -152,7 +153,12 @@ while True:
 
         # get the contours
         thresh1 = copy.deepcopy(thresh)
+        
+        # for opencv 3.4.7
         _, contours, hierarchy = cv2.findContours(thresh1, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+        # for opencv 3.4.7+
+        # contours, hierarchy = cv2.findContours(thresh1, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+
         length = len(contours)
         maxArea = -1
         if length > 0:
